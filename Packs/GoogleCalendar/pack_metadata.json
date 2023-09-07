@@ -1,0 +1,21 @@
+{
+    "name": "Google Calendar",
+    "description": "Google Calendar integration with Cortex XSOAR.",
+    "support": "xsoar",
+    "currentVersion": "1.1.34",
+    "author": "Cortex XSOAR",
+    "url": "https://www.paloaltonetworks.com/cortex",
+    "email": "",
+    "created": "2020-08-14T10:49:54Z",
+    "categories": [
+        "Cloud Services"
+    ],
+    "tags": [],
+    "useCases": [],
+    "keywords": [],
+    "githubUser": [],
+    "marketplaces": [
+        "xsoar",
+        "marketplacev2"
+    ]
+}

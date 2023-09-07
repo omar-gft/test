@@ -1,0 +1,101 @@
+{
+    "name": "Cortex Attack Surface Management",
+    "description": "Content for working with Attack Surface Management (ASM).",
+    "support": "xsoar",
+    "currentVersion": "1.6.32",
+    "author": "Cortex XSOAR",
+    "url": "https://www.paloaltonetworks.com/cortex",
+    "email": "",
+    "categories": [
+        "Data Enrichment & Threat Intelligence"
+    ],
+    "tags": [],
+    "useCases": [],
+    "keywords": [
+        "Attack Surface Management",
+        "Cortex",
+        "ASM",
+        "Xpanse",
+        "Palo Alto Networks"
+    ],
+    "dependencies": {
+        "ServiceNow": {
+            "mandatory": false,
+            "display_name": "ServiceNow"
+        },
+        "CommonScripts": {
+            "mandatory": true,
+            "display_name": "Common Scripts"
+        },
+        "Azure-Enrichment-Remediation": {
+            "mandatory": false,
+            "display_name": "Azure Enrichment and Remediation"
+        },
+        "AWS-Enrichment-Remediation": {
+            "mandatory": false,
+            "display_name": "AWS Enrichment and Remediation"
+        },
+        "Jira": {
+            "mandatory": false,
+            "display_name": "Atlassian Jira"
+        },
+        "qualys": {
+            "mandatory": false,
+            "display_name": "Qualys"
+        },
+        "GCP-Enrichment-Remediation": {
+            "mandatory": false,
+            "display_name": "GCP Enrichment and Remediation"
+        },
+        "FiltersAndTransformers": {
+            "mandatory": true,
+            "display_name": "Filters And Transformers"
+        },
+        "SplunkPy": {
+            "mandatory": false,
+            "display_name": "Splunk"
+        },
+        "PrismaCloud": {
+            "mandatory": false,
+            "display_name": "Prisma Cloud by Palo Alto Networks"
+        },
+        "Rapid7_Nexpose": {
+            "mandatory": false,
+            "display_name": "Rapid7 InsightVM"
+        },
+        "Tenable_io": {
+            "mandatory": false,
+            "display_name": "Tenable.io"
+        },
+        "SplunkPyPreRelease": {
+            "mandatory": false,
+            "display_name": "Splunk Prerelease (Deprecated)"
+        },
+        "GCP-IAM": {
+            "mandatory": false,
+            "display_name": "GCP-IAM"
+        }
+    },
+    "marketplaces": [
+        "marketplacev2",
+        "xpanse"
+    ],
+    "itemPrefix": [
+        "ASM"
+    ],
+    "displayedImages": [
+        "ServiceNow",
+        "CommonScripts",
+        "Azure-Enrichment-Remediation",
+        "AWS-Enrichment-Remediation",
+        "Jira",
+        "qualys",
+        "GCP-Enrichment-Remediation",
+        "FiltersAndTransformers",
+        "SplunkPy",
+        "PrismaCloud",
+        "Rapid7_Nexpose",
+        "Tenable_io",
+        "SplunkPyPreRelease"
+    ]
+}

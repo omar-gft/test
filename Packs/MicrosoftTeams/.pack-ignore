@@ -1,0 +1,11 @@
+[file:README.md]
+ignore=RM106
+
+[file:MicrosoftTeams.yml]
+ignore=DS107
+
+[known_words]
+aad
+membershiptype
+
+
